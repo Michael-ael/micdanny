@@ -1,0 +1,50 @@
+header{
+    background:rgba(0, 0, 0, 0.8) url(../../assets/images/Header-background.jpg)no-repeat center center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    color: #fff;
+    height: 100%;
+    min-height: 630px;
+}
+
+header .container .flex{
+    flex-direction: column;
+}
+
+header .header-wrap{
+    padding-top: 250px;
+}
+
+header .container .flex h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+header .container .flex p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+header .container .flex .btn-header{
+    background-color: var(--clr-red-dark);
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: var(--transition);
+}
+
+header .container .flex .btn-header:hover{
+    border: 3px solid var(--clr-red-dark);
+    background-color: transparent;
+}

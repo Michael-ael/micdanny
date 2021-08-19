@@ -1,0 +1,43 @@
+.Home-services{
+    background: var(--clr-red-dark);
+    min-height: 500px;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.Home-services .border-home-services{
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    margin: 40px 0px;
+}
+
+.Home-services .contentHome h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Home-services .contentHome a{
+    background-color: #fff;
+    width: 150px;
+    padding: 15px 17px;
+    border-radius: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--clr-red-dark);
+    transition: 0.5s;
+    margin: 10px 0px;
+}
+
+.Home-services .contentHome a:hover{
+    width: 180px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+

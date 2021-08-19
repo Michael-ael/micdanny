@@ -1,0 +1,42 @@
+nav{
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+nav .navbar-logo h3{
+    font-family: 'Niconne', cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: rgb(184, 0, 0);
+}
+
+nav .navbar-logo span.bottom-logo{
+    font-size: 0.8rem;
+    line-height: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+nav.nav .container .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.nav .container .nav-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav.nav .container .nav-items ul li{
+    color: #fff;
+}
+
+nav.nav .container .nav-items ul li.email a{
+    color: #c5c5c5;
+    font-style: italic;
+}
